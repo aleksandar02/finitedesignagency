@@ -1,0 +1,298 @@
+/* Large devices */
+@media (max-width: 1199.98px) {
+  /* Navigation */
+  .navbar-collapsed {
+    left: -100%;
+    width: 40vw;
+    height: 100%;
+    background: #fff;
+    border-right: 1px solid #f4f4f4;
+    box-shadow: 5px 0px 10px rgba(0, 0, 0, 0.02);
+  }
+
+  .js-navbar-collapsed {
+    left: 0;
+  }
+
+  .navbar-collapsed nav {
+    flex-direction: column;
+    margin: 0;
+    align-items: flex-start;
+    margin: 30px 40px;
+  }
+
+  .navbar-collapsed nav .nav-menu {
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 0;
+    margin-top: 40px;
+  }
+
+  .navbar-collapsed nav .nav-menu li {
+    margin-right: 0;
+    margin-top: 12px;
+  }
+
+  .close-navbar {
+    display: block;
+  }
+
+  .header-md {
+    display: block;
+  }
+
+  /* Utility classes */
+  .container {
+    width: 80%;
+  }
+
+  /* Intro */
+  .intro-content h1 {
+    font-size: 64px;
+    line-height: 74px;
+  }
+}
+
+/* Medium devices */
+@media (max-width: 991.98px) {
+  .work-item {
+    width: 50%;
+  }
+
+  .item-1 {
+    order: 2;
+  }
+
+  .item-2 {
+    order: 1;
+  }
+
+  .item-3 {
+    order: 3;
+  }
+
+  .item-4 {
+    order: 4;
+  }
+
+  .item-5 {
+    order: 6;
+  }
+
+  .item-6 {
+    order: 5;
+  }
+
+  .services {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .intro-content h1 {
+    font-size: 46px;
+    line-height: 56px;
+  }
+
+  .about-us {
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 30px;
+  }
+  footer .footer-content {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .footer-left {
+    margin-bottom: 40px;
+  }
+
+  .footer-right {
+    width: 60%;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .navbar-collapsed {
+    width: 54vw;
+    /* left: -54vw; */
+  }
+  .container {
+    width: 90%;
+  }
+
+  .work-item {
+    width: 100%;
+  }
+
+  .item-1 {
+    order: 1;
+  }
+
+  .item-2 {
+    order: 2;
+  }
+
+  .item-3 {
+    order: 3;
+  }
+
+  .item-4 {
+    order: 4;
+  }
+
+  .item-5 {
+    order: 5;
+  }
+
+  .item-6 {
+    order: 6;
+  }
+  /* Intro */
+  .intro-content h1 {
+    font-size: 32px;
+    line-height: 46px;
+  }
+
+  .intro-content p {
+    font-size: 14px;
+    width: 100%;
+    margin-bottom: 32px;
+    margin: 0 auto 32px auto;
+  }
+
+  .btn {
+    padding: 8px 18px;
+    font-size: 14px;
+  }
+
+  /* Section */
+  .section-heading {
+    font-size: 32px;
+  }
+
+  .section-paragraph {
+    font-size: 14px;
+  }
+  .section-box {
+    padding: 60px 0px;
+  }
+
+  /* Services */
+  #services {
+    padding-top: 120px;
+  }
+
+  .service {
+    height: 100%;
+    align-self: flex-start;
+    padding: 30px 30px 0px 30px;
+  }
+
+  .service h3 {
+    font-size: 22px;
+    margin-bottom: 0;
+  }
+
+  .service p {
+    line-height: 20px;
+    font-size: 14px;
+    color: #888;
+  }
+  .services .svg-holder {
+    width: 40px;
+    height: 40px;
+  }
+
+  .services svg {
+    width: 16px;
+    height: 16px;
+  }
+  /* Need a website */
+  .need-a-website-content h3 {
+    font-size: 32px;
+  }
+
+  .need-a-website-content p {
+    font-size: 14px;
+  }
+
+  /* About us sectoin*/
+  #aboutUs {
+    padding-top: 120px;
+  }
+
+  .about-us p {
+    font-size: 14px;
+  }
+
+  /* Contact section */
+  .contact-top {
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 30px;
+  }
+
+  label {
+    font-size: 15px;
+  }
+
+  .mt-40 {
+    margin-top: 30px;
+  }
+
+  .input,
+  .textarea {
+    font-size: 14px;
+  }
+
+  .lb-close {
+    top: 10;
+    right: 10px;
+  }
+
+  .lb-nav a.lb-prev {
+    background: url('../js/lightbox2/dist/images/chevron-left.png') left 48%
+      no-repeat;
+  }
+
+  .lb-nav a.lb-next {
+    background: url('../js/lightbox2/dist/images/chevron-right.png') right 48%
+      no-repeat;
+  }
+}
+
+/* Extra Small devices */
+@media (max-width: 575.98px) {
+  .navbar-collapsed {
+    width: 100%;
+  }
+
+  .services {
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 20px;
+  }
+
+  .footer-left {
+    margin-bottom: 20px;
+  }
+
+  .footer-left ul {
+    margin-top: 12px;
+  }
+
+  .footer-left ul li {
+    font-size: 16px;
+  }
+
+  .footer-right {
+    width: 80%;
+  }
+
+  .footer-right .social-icons {
+    margin-top: 20px;
+  }
+
+  .copyright-text {
+    font-size: 14px;
+  }
+}
